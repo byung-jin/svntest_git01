@@ -10,5 +10,10 @@ public class HkDto {
 	private String title;
 	private String content;
 	private Date regDate;
+	public HkDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	
 }
