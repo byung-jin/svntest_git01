@@ -59,6 +59,14 @@ public class HkDto {
 	public void setRegDate(Date regDate) {
 		this.regDate = regDate;
 	}
+	public HkDto(int seq, String id, String title, String content, Date regDate) {
+		super();
+		this.seq = seq;
+		this.id = id;
+		this.title = title;
+		this.content = content;
+		this.regDate = regDate;
+	}
 	
 	
 }
